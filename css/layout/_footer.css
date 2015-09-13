@@ -1,0 +1,11 @@
+#footer {
+  background-color: #171201;
+  height: 100%;
+  padding: 2%;
+}
+
+.footer-nav div{
+  display:inline;
+  margin: 2% 0;
+
+}

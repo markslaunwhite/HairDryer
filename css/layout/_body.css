@@ -1,0 +1,84 @@
+#product-info {
+  padding-top:5%;
+}
+
+/************************
+Product Image Styles
+************************/
+
+
+.img-frame {
+  padding: 5%;
+  background-color: #FFFFFF;
+  width: 100%;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,0.1);
+}
+.product-img-wrapper img {
+  max-width: 100%;
+  margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/************************
+Product Description Styles
+************************/
+
+
+
+.product-description-wrapper {
+  padding: 5%;
+  height: 100%;
+
+}
+
+
+.description-title{
+  font-size: 1.5rem;
+}
+
+
+.price {
+  font-size: 1.5rem;
+  font-style: light;
+}
+
+.pad5 {
+  padding: 5%;
+}
+
+
+ /**********************************************************************
+
+     This is to replace the default ratio buttons with more styled buttons*/
+
+    input[type="radio"] {
+
+    }
+
+    input[type="radio"] + label {
+      display: inline-block;
+        cursor: pointer;
+        position: relative;
+        padding: 10px;
+
+
+        border-color: #eee;
+    }
+
+    input[type="radio"]:checked + label {
+      border:solid black 1px;
+      border-radius: 3px;
+      background-position: 0 -21px;
+        }
+
+
+input[type="radio"] + label,
+input[type="radio"]:checked + label: ; {
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+/**********************************************************************/

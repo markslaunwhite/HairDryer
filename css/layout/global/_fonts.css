@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+
+a {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+
+h2, h4, h5 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+p {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+}

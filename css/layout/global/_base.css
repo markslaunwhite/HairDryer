@@ -1,0 +1,33 @@
+/*These are global items which will be set to all varibles throught project*/
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  background-color: #FFFF;
+
+}
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*no bullet points on ul*/
+ul{
+  list-style-type: none;
+
+}
+
+
+/* no decoration link items*/
+a, a:hover, a:active, a:link, a:visited {
+  text-decoration: none;
+  color: white;
+
+}

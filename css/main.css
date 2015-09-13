@@ -1,0 +1,20 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*Custom Styles are imported into main.css */
+
+
+/*CSS Reset is first used to enusre starting with the same base across all browsers*/
+@import "layout/global/_reset.css";
+
+@import "layout/global/_fonts.css";
+
+@import "layout/_navBar.css";
+@import "layout/_footer.css";
+@import "layout/_body.css";
+
+
+@import "layout/global/_base.css";
