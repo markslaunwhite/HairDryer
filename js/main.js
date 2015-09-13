@@ -1,3 +1,5 @@
+
+// Changes the picture
 $(document).ready(function() {
   $("input:radio[name=color]").click(function(){
     var value = $(this).val();
@@ -11,7 +13,7 @@ $(document).ready(function() {
   });
 
 
-
+//adds and subtracts quantity
 
   $('.qty').click(function() {
     var button = $(this),

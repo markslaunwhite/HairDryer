@@ -13,26 +13,16 @@ Navbar Styles
   max-width: 100%;
 }
 
-/*#nav {
-  padding-top: 20px;
-}
-*/
-
-
 
 #nav li {
-
     font-size: 100%;
     font-weight: 500;
     display:inline;
-    /*margin: 0 5%;*/
     line-height: 4;
-
   }
 
  li:hover {
     border-bottom: solid 3px white;
     -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-
   }

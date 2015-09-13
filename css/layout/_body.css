@@ -17,7 +17,6 @@ Product Image Styles
   max-width: 100%;
   margin-left: auto;
     margin-right: auto;
-
 }
 
 
@@ -30,7 +29,6 @@ Product Description Styles
 .product-description-wrapper {
   padding: 5%;
   height: 100%;
-
 }
 
 
@@ -51,19 +49,15 @@ Product Description Styles
 
  /**********************************************************************
 
-     This is to replace the default ratio buttons with more styled buttons*/
+     This is to style the ratio buttons with more style*/
 
-    input[type="radio"] {
 
-    }
 
     input[type="radio"] + label {
       display: inline-block;
         cursor: pointer;
         position: relative;
         padding: 10px;
-
-
         border-color: #eee;
     }
 
@@ -74,11 +68,11 @@ Product Description Styles
         }
 
 
-input[type="radio"] + label,
-input[type="radio"]:checked + label: ; {
-  -webkit-transition:background-color 0.4s linear;
-  -o-transition:background-color 0.4s linear;
-  -moz-transition:background-color 0.4s linear;
-  transition:background-color 0.4s linear;
-}
+    input[type="radio"] + label,
+    input[type="radio"]:checked + label: ; {
+      -webkit-transition:background-color 0.4s linear;
+      -o-transition:background-color 0.4s linear;
+      -moz-transition:background-color 0.4s linear;
+      transition:background-color 0.4s linear;
+    }
 /**********************************************************************/
